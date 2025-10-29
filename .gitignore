@@ -1,0 +1,13 @@
+# data
+data/*.parquet
+data/processed/*
+data/interim/*
+!data/raw/.keep
+
+# artifacts
+artifacts/*
+
+# misc
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
